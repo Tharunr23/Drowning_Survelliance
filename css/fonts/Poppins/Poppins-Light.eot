@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="robots" content="noindex" />
+  
+
+  <!-- touch icons --><link rel="apple-touch-icon" sizes="180x180" href="images/website/icons/apple-touch-icon.png"><link rel="icon" type="image/png" sizes="32x32" href="images/website/icons/favicon-32x32.png"><link rel="icon" type="image/png" sizes="16x16" href="images/website/icons/favicon-16x16.png"><link rel="manifest" href="images/website/icons/site.webmanifest"><meta name="msapplication-TileColor" content="#4a4a4d"><meta name="theme-color" content="#ffffff">
+
+  <!-- // site info -->
+  <title>ERROR 404 - Page not found</title>
+
+  <link rel="prefetch" href="fonts/Poppins/Poppins-Medium.ttf" type="font/ttf">
+    <link rel="preload" href="fonts/PlayfairDisplay/PlayfairDisplay-Regular.ttf" type="font/ttf">
+    <link rel="stylesheet" href="css/main.css" type="text/css" media="all"></head>
+
+<body class="error-404">
+
+  <div class="video-background">
+    <div class="video-foreground">
+      <video class="video-error" width="1920" height="1080" autoplay muted="muted" loop="loop">
+        <source src="video/404-1080-yellow.webm" type="video/webm">
+        <source src="video/404-1080-yellow.mp4" type="video/mp4">
+      </video>
+    </div>
+  </div>
+
+  <div class="error-content">
+    <!-- <span class="error-h-line"></span> -->
+    <p>404</p>
+    <p>Error</p>
+
+    <a href="index.html" class="popart-btn error-btn">HOMEPAGE</a>
+  </div>
+
+  <script>
+    (function(){
+      setTimeout(function() {
+        window.location = window.location.origin;
+      }, 12000);
+    })();
+  </script>
+
+</body>
+
+</html>
